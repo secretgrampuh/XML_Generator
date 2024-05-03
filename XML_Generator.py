@@ -260,7 +260,7 @@ def Create_Update_XML(SG_shots_to_include_nonAlpha,SG_shots_to_include_Alpha):
 
     videoTrackLists=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
     print("crunching xml...")
-    xml_file = etree.parse(r"C:\Users\zlamplugh\Documents\zProjects\XML_Generator\TKO_PictureLock_20240403_ZachDelivery_PictureLock_06.xml")
+    xml_file = etree.parse(r"C:\Users\zlamplugh\Documents\zProjects\generator\TKO_PictureLock_20240403_ZachDelivery_PictureLock_06.xml")
     xml_tree=xml_file.getroot()
     xml_tree_Final=xml_file.getroot()
     xml_tree_to_write=xml_file.getroot()
