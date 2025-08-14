@@ -1,6 +1,8 @@
 **XML_Generator**
 
-This python script is designed to continually update an editors timeline with new VFX comps from vendors as they are received. 
+This python script is designed to continually update an editors timeline with new VFX comps from vendors as they are received.
+
+So the workflow is essentially, each day we receive maybe 200-300 shots from the vendors. After they get distributed to the appropriate folders on our server (via python script), we then run this script that generates a .xml file with all of the latest shots already in place on the finished movie. This takes the editor only a couple of minutes to import rather than having an assistant editor do it manually (some movie studios still do this!).
 
 It accomplishes this by doing the following:
 - Scan the production company's server
